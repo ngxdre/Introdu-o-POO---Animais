@@ -27,11 +27,12 @@ public class Abelha {
     }
 
     public String getFuncao() {
+        this.funcao = funcao.toLowerCase();
         return funcao;
     }
 
     public void setFuncao(String funcao) {
-        this.funcao = funcao;
+        this.funcao = funcao.toLowerCase();
     }
 
 //Ações:
